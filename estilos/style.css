@@ -68,17 +68,35 @@ div#formulario > p {
 div.campo > label {
     display: none;
 }
+div.campo > i{
+
+}
 form > div.campo{
-    background-color:#49a09dc7;
+    background-color:#205250c2;
     display: block;
     width: 100%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
+    border: 2px solid #205250c2;
 }
-#icon {
-    color: #1c3837;
+div.campo > i {
+    color: #ffffff;
+    font-size: 1.6em;
+    width: 41px;
+    padding: 5px;
 }
+div.campo > input{
+    background-color:#89dbd9c7 ;
+    font-size: 1em;
+    transform: translateY(-5px);
+    width: calc(100% - 48px);
+    height: 100%;
+    border-radius: 8px;
+    padding: 4px;
+    border: none;
+}
+
 form > input[type=submit]{
     display: block;
     font-size: 1em;
