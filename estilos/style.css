@@ -72,7 +72,7 @@ div.campo > i{
 
 }
 form > div.campo{
-    background-color:#205250c2;
+    background-color:#1b3837c2;
     display: block;
     width: 100%;
     height: 40px;
@@ -87,7 +87,7 @@ div.campo > i {
     padding: 5px;
 }
 div.campo > input{
-    background-color:#89dbd9c7 ;
+    background-color:#cff3f2d5 ;
     font-size: 1em;
     transform: translateY(-5px);
     width: calc(100% - 48px);
@@ -95,6 +95,9 @@ div.campo > input{
     border-radius: 8px;
     padding: 4px;
     border: none;
+}
+div.campo > input:focus-within{
+    background-color: white;
 }
 
 form > input[type=submit]{
